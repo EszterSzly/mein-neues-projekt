@@ -21,7 +21,6 @@ function App() {
   return (
     <>
 
-
     <MyNavbar onClickPage={setPageName}/>
 {pageName === "Home" && <Home/>}
    {pageName === "Menu" && <Menu/>}

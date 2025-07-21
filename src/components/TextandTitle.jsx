@@ -3,18 +3,7 @@ import organic from "../img/organic.jpg"
 
 function TextandTitle({title, text}) {
 
-let [userEmail, setUserEmail] = useState ("");
 
-function handleChange (e){
-  setUserEmail(e.target.value);
-
-
-}
-
-  function handleClick() {
-    alert(`Do you want to subscribe with this email? ${userEmail}`);
-
-  }
 
 
 return (
@@ -38,8 +27,6 @@ style={{ borderRadius: '6px'}}
 <div>
 <h2>{title }</h2>
 <p> {text} </p>
-<input onChange ={handleChange} />
-<button onClick={handleClick}>Subscribe</button>
         </div>
         </div>
     
