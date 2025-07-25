@@ -1,11 +1,11 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
 
-function myNavbar({onClickPage}) {
+function MyNavbar({onClickPage}) {
   return (
     <Navbar bg="light" expand="lg">
-      <Container className="justify-content-center">
-        
+    
+      <Container fluid className="justify-content-center">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
@@ -19,5 +19,5 @@ function myNavbar({onClickPage}) {
   );
 }
 
-export default myNavbar;
+export default MyNavbar;
 

@@ -14,7 +14,7 @@ return (
       alignItems: 'center',
        gap: '2rem', 
        marginTop: '4rem',
-        marginBottom: "4rem",
+        marginBottom: "2rem",
       borderBottom: '1px solid #ccc',
       paddingBottom:'1rem'
     }}> 

@@ -1,10 +1,17 @@
 [
 { "id": 1, "name": "Espresso", "price": " 2.50"},
+
 { "id": 2, "name": "Strawberry Matcha with Plant Milk", "price":"5.00"},
 { "id": 3, "name": "Iced Oat Chocolate Latte", "price":"4.90"},
 { "id": 4, "name": "Pistachio Soja Cappucino", "price":"5.10"},
 { "id": 5, "name": "Plant Latte Macchiato", "price":"4.00"},
 { "id": 6, "name": "Apple Pie", "price":"4.50"},
-{ "id": 7, "name": "Hummus Sandwich", "price":"4.00"}
+{ "id": 7, "name": "Hummus Sandwich", "price":"4.00"},
+{"id": 8, "name": "Ginger Tea", "price":"3.00"},
+{"id":9, "name": "Lemonade", "price":"3.50"},
+{"id": 10, "name": "Granola Bowl", "price":"5.50"},
+{"id": 11, "name": "Croissant", "price":"2.50"}
+
+
 
     ]
