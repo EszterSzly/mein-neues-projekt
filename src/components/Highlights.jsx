@@ -7,9 +7,10 @@ function Highlights(){
 
 return (
      <>
-    <div style={{marginTop:'2rem',borderTop: '1px solid #ccc'}}>
+    <div className="highlights">
+      <h2>Our highlights</h2>
         <ul style= {{listStyleType: 'none'}}> 
-          <h2>Our highlights</h2>
+          
 <li>
   Strawberry Matcha with Plant Milk-5.00€ <FontAwesomeIcon icon={faSeedling}/>
 

@@ -7,7 +7,7 @@ function MenuItem ({item,price}) {
 
 
 return (
-<li>
+<li className="">
 {item}-{price}
 <FontAwesomeIcon icon={faSeedling}/>
 </li>

@@ -19,14 +19,14 @@ function App() {
 
 }
   return (
-    <>
+    <div className="page-wrapper">
 
-    <MyNavbar style={{padding:0, marginTop:0}} onClickPage={setPageName}/>
+    <MyNavbar onClickPage={setPageName}/>
 {pageName === "Home" && <Home/>}
    {pageName === "Menu" && <Menu/>}
    {pageName === "About" && <About/>}
    
-   </>
+   </div>
   );
 }
 
